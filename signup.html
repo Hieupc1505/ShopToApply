@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./public/css/grid.css">
+    <link rel="stylesheet" href="./public/css/base.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="app-main">
+            <img src="./public/img/background.png" alt="background" width="1200px" class="app-bkg">
+            <div class="grid wide app-container">
+                <div class="app-signup l-o-7 m-o-7" style="display:none">
+                    <form action="#" method="POST">
+                        <h1 class="app-title">Sign Up <a href="#" class="or-login">or login</a></h1>
+                        <div class="sign-other-way">
+                            <div class="other-way-btn btn-gg">
+                                <i class="fab fa-google-plus"></i> Google+
+                            </div>
+                            <div class="other-way-btn btn-fb">
+                                <i class="fab fa-facebook"></i> facebook
+                            </div>
+                        </div>
+                        <div class="input-wrap">
+                            <label class="form-lable" for="email">Email</label>
+                            <input type="text" class="form-input" id="email" placeholder="Nhập email">
+                            <span class="email-err form-err">Email not exitst</span>
+                        </div>
+        
+                        <div class="input-wrap">
+                            <label class="form-lable" for="password">Nhập mật khẩu</label>
+                            <input type="password" class="form-input" id="password" placeholder="Nhập mật khẩu">
+                            <span class="password-err form-err"></span>
+                        </div>
+        
+                        <div class="input-wrap">
+                            <label class="form-lable" for="verify">Nhập lại mật khẩu</label>
+                            <input type="password" class="form-input" id="verify" placeholder="Nhập mật khẩu">
+                            <span class="verify-err form-err"></span>
+                        </div>
+                        <div class="btn">Đăng Ký</div>
+                    </form>
+                     
+                </div>
+                <div class="app-signup l-o-7 m-o-7">
+                    <form action="#" method="POST">
+                        <h1 class="app-title">Log In <a href="#" class="or-login">or Sign up</a></h1>
+                        <div class="sign-other-way">
+                            <div class="other-way-btn btn-gg">
+                                <i class="fab fa-google-plus"></i>&nbsp; Google+
+                            </div>
+                            <div class="other-way-btn btn-fb">
+                                <i class="fab fa-facebook"></i> &nbsp;Facebook
+                            </div>
+                        </div>
+                        <div class="input-wrap">
+                            <label class="form-lable" for="email">Email</label>
+                            <input type="text" class="form-input" id="email" placeholder="Nhập email">
+                            <span class="email-err form-err">Email not exitst</span>
+                        </div>
+        
+                        <div class="input-wrap">
+                            <label class="form-lable" for="password">Nhập mật khẩu</label>
+                            <input type="password" class="form-input" id="password" placeholder="Nhập mật khẩu">
+                            <span class="password-err form-err"></span>
+                        </div>
+                        <div class="btn">Đăng Nhập</div>
+                        <div class="plugin-login">
+                            <div class="remember-account">
+                                <input type="checkbox" id="check">
+                                <label for="check" class="form-label">Remember me</label>
+                            </div>
+                            <a href="#" class="forgot-pass">Forget password??</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
